@@ -46,6 +46,7 @@ group :test do
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git'
   gem 'simplecov', require: false
   gem 'webmock'
+  gem 'byebug'
 end
 
 group :development do

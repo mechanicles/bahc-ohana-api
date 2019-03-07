@@ -6,5 +6,6 @@ Geocoder.configure(
     Geocoder::RequestDenied,
     Geocoder::InvalidRequest,
     Geocoder::InvalidApiKey
-  ]
+  ],
+  api_key: ENV['GOOGLE_MAPS_API_KEY']
 )
