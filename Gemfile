@@ -61,6 +61,7 @@ group :development do
   gem 'letter_opener'
   gem 'pry-rails'
   gem 'rack-mini-profiler'
+  gem 'rb-readline'
   gem 'reek'
   gem 'spring'
   gem 'spring-commands-rspec'
